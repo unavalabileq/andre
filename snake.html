@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="style.css">
+	<title>Python: Making a Snake Game</title>
+</head>
+<body>
+	<header>
+		<h1 class="title">Python Game Development</h1>
+		<nav>
+			<ul>
+				<li><a href="homepage.html">Home</a></li>
+				<li class="active"><a href="index.html">Beginners</a></li>
+				<li><a href="homepage.html">Tutorials</a></li>
+				<li><a href="res.html">Resources</a></li>
+				<li><a href="contact.html">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+
+	<section class="hero">
+		<h2>Making a Snake Game in Python</h2>
+		<p>By Andre Chui</p>
+		<a href="homepage.html" class="btn">Go Back</a>
+	</section>
+
+	<main>
+		<section class="reviews">
+			<h2>Step-by-Step</h2>
+			<p>
+				Step 1: Plan the game's functionality
+				Before you start coding, it's important to plan out what you want your snake game to do. In its simplest form, our game will have a snake that moves on the screen and eats food to grow. The game will end if the snake collides with the walls or its own body.
+			</p>
+            <p>Define constants for colors and screen dimensions.</p>
+			<p>
+				Import the necessary libraries: Pygame for graphics and random for generating random numbers.
+			<p>
+				Define the Snake class, which inherits from the pygame.sprite.Sprite class. The Snake class initializes a green square at the center of the screen and moves in a certain direction depending on the user input.
+			</p>
+			<p>
+				Define the Food class, which also inherits from the pygame.sprite.Sprite class. The Food class initializes a red square at a random location on the screen.
+			</p>
+			<p>
+				Initialize Pygame and set the dimensions of the screen. Set the title of the game window and create the Snake and Food sprites.
+			</p>
+			<p>
+				Create a Group for all the sprites and add the Snake and Food sprites to it.
+            </p>
+            <p>Set the clock for the game and the font for the score. Initialize the score to 0 and the game over state to False.
+            </p>
+            Start the game loop. Handle events, update the Snake and Food sprites, check for collisions with the Food sprite, the walls, and the Snake's body. Clear the screen, draw all the sprites, and draw the score. Update the screen and set the frame rate.
+            <p>
+            Congratulations, you made the classic Snake game in Python
+            </p>
+            <h2>Code Download Here:</h2>
+            <form method="get" action="snake.py">
+    <button type="submit">Download</button>
+</form>
+		</section>
+	</main>
+
+	<footer>
+		<p>Created by Andre Chui [C05]</p>
+	</footer>
+</body>
+</html>

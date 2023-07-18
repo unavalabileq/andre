@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Python Quiz</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Python Quiz</h1>
+    <nav>
+      <ul>
+        <li class="active"><a href="homepage.html">Home</a></li>
+        <li><a href="index.html">Beginners</a></li>
+        <li><a href="#tutorials">Tutorials</a></li>
+        <li><a href="res.html">Resources</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+  
+  <main>
+          <section class="hero">
+      <h2>Learn Python the Easy Way</h2>
+      <p>Create a project in Python</p>
+      <a href="homepage.html" class="btn">Go Back</a>
+    </section>
+      <section class="reviews">
+    <h2>Test your knowledge of Python!</h2>
+    <form>
+        <p></p>
+      <p>1. What is NumPy and what is it used for?</p>
+      <label><input type="radio" name="question1" value="DMCM">Data manipulation and complicated math</label><br>
+      <label><input type="radio" name="question1" value="JD">Winning presidential elections</label><br>
+      <label><input type="radio" name="question1" value="RM">CoolGuyPoints</label><br>
+      <p></p>
+      <p>2. What is a CSV file?</p>
+      <label><input type="radio" name="question2" value="TWT">Two Way Table</label><br>
+      <label><input type="radio" name="question2" value="KIS">Venn diagrams</label><br>
+      <label><input type="radio" name="question2" value="KGV">Public toilets</label><br>
+      <p></p>
+      <p>3. How do you avoid getting a terminator sent to your doorstep?</p>
+      <label><input type="radio" name="question3" value="TabTen">import pandas as np</label><br>
+      <label><input type="radio" name="question3" value="cooking">Forgetting to use if __name__ == '__main__'</label><br>
+      <label><input type="radio" name="question3" value="safe">None of the above</label><br>
+      
+      <button type="button" onclick="checkAnswers()" class="btn">Submit Answers</button>
+    </form>
+    
+    <div id="results"></div>
+          </section>
+  </main>
+  
+  <footer>
+    <p>&copy; 2023 Python Quiz</p>
+  </footer>
+  
+  <script src="script.js"></script>
+</body>
+</html>

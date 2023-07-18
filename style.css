@@ -1,0 +1,178 @@
+/* Global Styles */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #727072; /* updated color */
+}
+
+a {
+  text-decoration: none;
+  color: #727072; /* updated color */
+}
+
+ul {
+  list-style: none;
+}
+
+/* Header Styles */
+
+.title{
+    color: aliceblue;
+}
+
+.icon{
+    max-height: 100px;
+    max-width: 100px
+}
+
+header {
+  padding: 20px;
+  background-color: #104547; /* updated color */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav li {
+  margin-left: 20px;
+    padding: 10px;
+}
+
+nav li:hover {
+  margin-left: 20px;
+    padding: 10px;
+    background-color: darkslategrey;
+}
+
+nav a {
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  color: #fff; /* updated color */
+}
+
+.project{
+    margin-right: 50px;
+}
+
+/* Hero Section Styles */
+
+.hero {
+  background-image: url('download.jfif');
+    background-color: darkcyan;
+    
+  background-size: cover;
+  background-position: center;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+ text-align: center;
+  color: #fff;
+}
+
+.hero h2 {
+  font-size: 48px;
+  margin-bottom: 20px;
+}
+
+.hero p {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+.hero .btn {
+  display: inline-block;
+  background-color: #4b5358; /* updated color */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.btn {
+  display: inline-block;
+  background-color: #4b5358; /* updated color */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 20px;
+  transition: background-color 0.3s ease;
+}
+
+.hero .btn:hover {
+  background-color: #727072; /* updated color */
+}
+
+/* Reviews Section Styles */
+
+.reviews {
+  padding: 50px;
+  background-color: #fff;
+}
+
+.active{
+    background-color: darkslategrey;
+    padding: 10px;
+}
+
+.reviews h3 {
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.reviews li {
+  margin-bottom: 40px;
+}
+
+.reviews h4 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.reviews p {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+.reviews a {
+  display: inline-block;
+  background-color: #4b5358; /* updated color */
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 18px;
+  transition: background-color 0.3s ease;
+}
+
+.reviews a:hover {
+  background-color: #727072; /* updated color */
+}
+
+/* Footer Styles */
+
+footer {
+  padding: 20px;
+  background-color: #f5f5f5;
+  text-align: center;
+}
+
+footer p{
+  font-size: 14px;
+  color: #af929d; /* updated color */
+}
